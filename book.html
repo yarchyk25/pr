@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Світ Книг</title>
+    
+    <style>
+        body {
+            /* Сучасний шрифт, який є у більшості систем */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 17px;        
+            line-height: 1.6;       
+            background-color: #f4f4f4; 
+            color: #333;           
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;    
+            margin: 20px auto;    
+            padding: 30px;        
+            background-color: #ffffff; 
+            border-radius: 8px;   
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+        }
+
+        a {
+            color: #007bff;           
+            text-decoration: none;    
+        }
+
+        a:hover {
+            text-decoration: underline; 
+        }
+
+        img, iframe {
+            max-width: 100%;      
+            height: auto;
+            border-radius: 5px;   
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd; 
+            margin: 40px 0;       
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #222; 
+        }
+
+        .genre-list {
+            list-style-type: circle;
+            
+            /* Більш гнучкий спосіб центрування списку */
+            width: fit-content;
+            margin: 20px auto;  
+            padding-left: 25px; 
+        }
+
+        .center-content {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Мій Книжковий Світ</h1>
+
+        <hr>
+
+        <h2>Чому я люблю читати</h2>
+
+        <p>Вітаю! Книги відкривають нові світи, дозволяють подорожувати в часі та просторі, не виходячи з кімнати.</p>
+
+        <p style="
+            font-weight: bold;
+            text-decoration: underline;
+            color: #006400; /* Не чорний колір (Темно-зелений) */
+            font-family: 'Monotype Corsiva', 'Apple Chancery', cursive; /* Нестандартний шрифт */
+        ">
+            Читання – це не просто хобі, це стиль життя. Кожна книга – це окрема пригода, яка збагачує внутрішній 
+            світ. Це найкращий спосіб для саморозвитку та відпочинку одночасно.
+        </p>
+
+        <hr>
+
+        <h2>Мої улюблені жанри</h2>
+        <ul class="genre-list">
+            <li>Фантастика та фентезі</li>
+            <li>Наукова-популярна література</li>
+            <li>Класична література</li>
+            <li>Детективи</li>
+        </ul>
+
+        <hr>
+
+        <h2>Обкладинки улюблених книг</h2>
+        <div class="center-content">
+            <p>Книжкові полиці завжди надихають .</p>
+        
+                <img src="https://images.pexels.com/photos/1106468/pexels-photo-1106468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                     alt="Полиці з великою кількістю книг у бібліотеці" 
+                     width="300"> </a>
+            <br>
+            <a href="https://www.pexels.com/photo/book-bookcase-books-bookshop-1106468/" target="_blank">
+            </a>
+        </div>
+
+        <hr>
+
+        <h2>Цікаві ресурси про книги</h2>
+
+        <div class="center-content">
+            <h3>Відео "Чому варто читати книги?"</h3>
+            <p>Цікаве відео про користь читання.</p>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/0fRWyMPd6HE?si=D7LijtsF8zj8XDNW" 
+           title="YouTube video player" frameborder="0" 
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <hr>
+
+        <div class="center-content">
+            <h3>Стаття про книги з Вікіпедії</h3>
+            <iframe 
+                src="https://uk.wikipedia.org/wiki/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0" 
+                width="600" 
+                height="450" 
+                style="border:1px solid #ccc;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div> </body>
+</html>
